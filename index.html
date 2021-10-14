@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dad jokes!</title>
+
+    <!-- AXIOS -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="app.css">
+
+
+    <link rel="icon" href="emoji-laughing.svg">
+
+</head>
+
+<body>
+
+
+    <div class="card" style="max-width: 25rem;">
+        <img src="dad_image.jpg" class="card-img-top" alt="dad_image">
+        <div class="card-body">
+            <h5 class="card-title">Click in the button to get a joke</h5>
+            <p id="jokes" class="card-text"></p>
+            <a id="button" href="#" class="btn btn-primary">Get joke!</a>
+            <a id="btnclose" href="#" class="btn btn-danger">Enough!</a>
+            <a id="btnstart" href="#" class="btn btn-success disabled">Start again!</a>
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
